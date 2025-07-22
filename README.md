@@ -12,9 +12,9 @@ This project implements a Linux kernel module (device driver) for the MPU6050 IM
 This is a node for mpu6050, you must insert into i2c parent node in Device Tree (.dts). To create struct client for mpu node
 
 mpu6050@68 {
-    compatible = "invense,mpu6050";
-    reg = <0x68>;
-    status = "okay";
+  -  compatible = "invense,mpu6050";
+   - reg = <0x68>;
+  -  status = "okay";
 };
 
 ## Noted
